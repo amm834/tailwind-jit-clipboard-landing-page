@@ -567,6 +567,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 75%;
 }
 
+.w-\[40px\] {
+  width: 40px;
+}
+
+.w-\[55px\] {
+  width: 55px;
+}
+
 .max-w-\[500px\] {
   max-width: 500px;
 }
@@ -591,6 +599,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex: 1 1 0%;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -607,8 +619,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .gap-3 {
@@ -625,6 +645,38 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-x-24 {
+  -moz-column-gap: 6rem;
+       column-gap: 6rem;
+}
+
+.gap-y-12 {
+  row-gap: 3rem;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.bg-dark-gray-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(210 10% 33% / var(--tw-bg-opacity));
+}
+
+.bg-grey-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(201 11% 66% / var(--tw-bg-opacity));
+}
+
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
 .bg-hero-desktop {
@@ -824,12 +876,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
   .md\:bg-hero-desktop {
     background-image: url('assets/bg-header-desktop.png');
   }
 
   .md\:bg-cover {
     background-size: cover;
+  }
+
+  .md\:p-\[128px\] {
+    padding: 128px;
   }
 
   .md\:py-\[130px\] {
