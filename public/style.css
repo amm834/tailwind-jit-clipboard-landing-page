@@ -587,6 +587,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -605,6 +609,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-12 {
   gap: 3rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .bg-hero-desktop {
@@ -816,6 +824,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:py-\[120px\] {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+
+  .md\:py-\[128px\] {
+    padding-top: 128px;
+    padding-bottom: 128px;
   }
 
   .md\:text-3xl {
