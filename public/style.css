@@ -555,6 +555,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 350px;
 }
 
+.w-\[400px\] {
+  width: 400px;
+}
+
+.w-2\/4 {
+  width: 50%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
 .max-w-\[500px\] {
   max-width: 500px;
 }
@@ -802,6 +814,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:max-w-\[700px\] {
     max-width: 700px;
+  }
+
+  .md\:max-w-\[350px\] {
+    max-width: 350px;
   }
 
   .md\:flex-row {
