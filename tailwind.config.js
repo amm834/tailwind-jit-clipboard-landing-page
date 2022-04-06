@@ -14,8 +14,8 @@ module.exports = {
                 "grey-blue": "hsl(201, 11%, 66%)",
             },
             backgroundImage: {
-                "hero-desktop": "url('/assets/bg-header-desktop.png')",
-                "hero-mobile": "url('/assets/bg-header-mobile.png')",
+                "hero-desktop": "url('assets/bg-header-desktop.png')",
+                "hero-mobile": "url('assets/bg-header-mobile.png')",
             },
         },
         fontFamily: {
