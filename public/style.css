@@ -613,6 +613,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 70px;
 }
 
+.py-\[80px\] {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -756,6 +761,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:bg-cover {
     background-size: cover;
+  }
+
+  .md\:py-\[130px\] {
+    padding-top: 130px;
+    padding-bottom: 130px;
   }
 
   .md\:text-3xl {
