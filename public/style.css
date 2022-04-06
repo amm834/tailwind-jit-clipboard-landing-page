@@ -519,12 +519,40 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2.5rem;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mt-\[80px\] {
+  margin-top: 80px;
+}
+
 .flex {
   display: flex;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-\[32px\] {
+  width: 32px;
+}
+
+.w-\[36px\] {
+  width: 36px;
+}
+
+.w-\[50px\] {
+  width: 50px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[350px\] {
+  width: 350px;
 }
 
 .max-w-\[500px\] {
@@ -541,6 +569,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-screen-lg {
   max-width: 1024px;
+}
+
+.max-w-\[350px\] {
+  max-width: 350px;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .flex-row {
@@ -565,6 +601,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-20 {
   gap: 5rem;
+}
+
+.gap-12 {
+  gap: 3rem;
 }
 
 .bg-hero-desktop {
@@ -616,6 +656,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-\[80px\] {
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+.py-\[130px\] {
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
 
 .text-center {
@@ -766,6 +811,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:py-\[130px\] {
     padding-top: 130px;
     padding-bottom: 130px;
+  }
+
+  .md\:py-\[120px\] {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .md\:text-3xl {
